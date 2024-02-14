@@ -1,2 +1,2 @@
 # gpa
-this is rehulsul for hosting this on github pages
+Government Polytechnic Atraulia , Azamgarh

@@ -1,0 +1,146 @@
+.container23{
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+  .container23 .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
+/* -------------------------------------------- */
+  .textbox{
+/* background:rgba(0, 0, 0, 0.796); */
+background: rgba(0, 0, 0, 0.284);
+
+}
+.navlinks ul {
+    width:64%;
+    background:rgba(0, 0, 0, 0.562);
+    border-radius:20px;
+    margin-left:100px;
+border:1px solid white;   
+word-spacing: 0%;
+letter-spacing: 0cm;
+line-height: 70%;
+/* line-height: normal; */
+
+
+}
+.container500{
+  border:1px solid red;
+  width:99.9%;
+  margin:auto;
+  height:100%;
+}
+.aimcontainer {
+  
+  background:rgba(0, 0, 0, 0.120);
+background-image: url("img\placement_second.jpg");
+margin-top:-50px;
+background-repeat: no-repeat;
+height:5%;
+background-size: cover;
+color:white;
+box-shadow: 5px 3px 5px purple;
+min-width:99vw;
+/* display:flex; */
+align-items: center;
+justify-content: center;
+
+}
+.aimcontainer h1{
+ 
+  text-align: center;
+  /* margin-top:-30px; */
+  color:white;
+  font-size: 1.8rem;
+  }
+.aimcontainer p,b{
+ 
+text-align: center;
+margin-top:60px;
+}
+.aimcontainer b{
+ 
+  text-align: center;
+  }
+
+
+
+/* background:rgba(0, 0, 0, 0.405); */
+  
+  .cardalternative
+
+  {
+    /* background-color:linear-gradient(to right purple, tomato, purple); */
+    width:100%;
+    margin:auto;
+
+    background-image:url("img/pixel/grass_sittiing_student.jpg");
+opacity:30;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.cardalternative .card{
+    /* background-color:linear-gradient(to right purple, tomato, purple); */
+    width:80%;
+    margin:auto;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.393);
+    height:auto;
+    object-fit:fill;
+display: flex;
+
+}
+.card h5{
+  color:white;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.cardalternative .card img{
+  /* background-color:linear-gradient(to right purple, tomato, purple); */
+ width:150px;
+ height:150px;
+ border-radius:20px;
+  object-fit:fill;
+
+
+}
+/* .cardalternative .card:nth-child(odd){
+  /* background-color:linear-gradient(to right purple, tomato, purple); */
+  position:absolute;
+  left:10px;
+  margin:auto;
+
+
+}
+.cardalternative .card:nth-child(even){
+  /* background-color:linear-gradient(to right purple, tomato, purple); */
+  position:absolute;
+  right:10px;
+  margin:auto;
+
+
+} */
+.informationcontainer{
+  /* background-color:black; */
+margin-top:10px;
+background-image: url("img/pixel/grass_sittiing_student.jpg");
+
+/* background-image:url("img/pixel/grass_sittiing_student.jpg"); */
+background-repeat: no-repeat;
+background-size: 100%;
+
+}
+.informationcontainer .cardalternative{
+
+}
+.informationcontainer card mb-3:nth-child(odd){
+  margin-left:-110px;
+}

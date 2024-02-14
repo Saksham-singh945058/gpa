@@ -1,0 +1,889 @@
+*{
+    margin: 0;
+padding: 0;
+/* font-family: 'Poppins', sans-serif; */
+box-sizing:border-box;
+
+}
+html{
+  font-size: 62.5%;
+}
+
+
+body .header{
+    min-height: 100vh;
+    width:100%;
+background-position: center;
+    background-size: cover;
+      position:relative; 
+      /* background-repeat: no-repeat; */
+animation:changebackground 10s infinite linear;
+
+}
+#mainimg img{
+  height:520px;
+  width:100%;
+  opacity:5;
+scale:32px; 
+}
+.header img{
+  opacity:30;
+}
+@keyframes changebackgroun
+{
+0% {
+ background-image: url("images.jpg");
+ opacity:1;
+  }
+  20% {
+    background-image: url("pexels-karolina-grabowska-4736067.jpg");
+    opacity:1;
+  }
+    40% {
+    background-image: url("download (1).jpg");
+    opacity:1;
+  }
+  60% {
+    background-image: url("download.jpg");
+    opacity:1;
+  }
+  80% {
+    background-image: url("logo.png");
+    opacity:1;
+  }
+
+  100% {
+    background-image: url("download (3).jpg");
+    opacity:1;
+  }
+
+}
+
+nav{
+    display:flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, purple,tomato,purple); 
+    width:100%;
+    height:10.0rem;
+position:fixed;
+z-index:10;
+border-bottom:1px solid white;
+
+  }
+
+nav img{
+    width:9rem;
+    height:9rem;
+  
+/* border:3px solid black; */
+border-radius:50%;
+    
+
+    
+}
+.navlinks{
+    flex:1;
+    text-align: right;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlinks ul li{
+    list-style: none;
+    display:inline-block;
+    padding:.8rem 1.2rem;
+    position:relative;
+
+}
+.navlinks ul li a{
+    text-decoration: none;
+    color:#fff3f3;
+    font-size:1.5rem;
+  text-transform:uppercase;
+
+
+}
+.navlinks ul li a:hover{
+    font-weight:900;
+    color:white;
+    transition:.1s;
+}
+.navlinks ul li::after{
+    content:'';
+    width:0%;
+    height:.2rem;
+    background:white;
+    display:block;
+    margin:auto;
+transition: 0.25s;
+}
+.navlinks ul li:hover::after{
+    width:100%;
+    
+}
+.textbox{
+    color:white;
+width:78%;
+color:white;
+position:absolute;
+top:60%;
+left:50%;
+transform: translate(-50%,-5%);
+text-align:center;
+margin:auto;
+border:2px solid black;
+box-shadow: 7px 5px 5px  rgb(41, 22, 41);
+margin:1.0rem 0 4.0rem;
+    font-size: 1.4rem;
+    color:#fff;
+
+}
+.textbox h1{
+font-size:3.0rem;
+word-spacing: .5rem;
+font-weight:900;
+}
+
+.homebutton{
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    border:.1rem solid white;
+    padding:1.2rem 3.4rem;
+    font-size: 1.3rem;
+    background: transparent;
+    position:relative;
+cursor: pointer;
+border:1px dashed white;
+
+}
+.homebutton:hover{
+   
+        background:rgba(0, 0, 0, 0.562);
+
+    font-weight:bolder;
+    transition:0.1s;
+    border-radius:.2rem solid black;
+    color:white;
+    font-weight:900;
+    border:1px dashed white;
+}
+.visitustoknowmore
+{
+font-size:1.6rem;
+color:white;
+text-decoration: none;
+}
+
+@media (max-width:700px) {
+    .textbox h1{
+        font-size:22px;
+    }
+  p{
+        font-size:10px;
+    }
+    
+}
+
+.rangeenline{
+  height:3rem;
+  width:100%;
+  background-color: white;
+  border:1px solid rgba(0, 0, 0, 0.432);
+  /* box-shadow:8px 8px 8px gray; */
+  background-image: linear-gradient(to right, purple,tomato,purple); 
+color:black;
+}
+
+
+.smallboxonfront{
+  color:rgb(255, 255, 255);
+  background:rgb(0, 0, 0);
+  width:90.0rem;
+  margin:auto;
+box-shadow: 3px 3px 3px rgb(138, 138, 138);
+font-size: 20px;
+}
+
+/* this is the image css of the full page tab links like for chiefminister and chairman and principal and for the vice principal */
+.tablinkimage{
+  height:9.0rem;
+  width: 9.0rem;
+  border-radius: 50%;
+margin-left:49rem;
+border:2px solid rgb(185, 185, 185);
+background-position: cover;
+}
+
+.tabcontent img:hover{
+
+scale: 110%;
+}
+
+/* SECOND SECTION */
+.course{
+    margin:auto;
+    text-align:center;
+    width:80%;
+    background-image: linear-gradient(to right, purple,tomato,purple); 
+ 
+    padding-top: 1.0rem;
+}
+
+
+
+h1{
+    font-size:3.0rem;
+    font-weight: 600;
+    
+}
+p2{
+    color:#777;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height:1.0rem;
+}
+.row{
+    margin-top: 5%;
+    display:flex;
+    justify-content:space-between;
+
+}
+.coursecolumn{
+    flex-basis:31%;
+    background-color: #fff3f3;
+    border-radius:1.0rem;
+    margin-bottom: 5%;
+    padding:2.0rem 1.2rem;
+    box-sizing: border-box;
+}
+h3{
+    text-align: center;
+    font-weight:600;
+    margin:1.0rem 0;
+}
+.coursecolumn:hover{
+    box-shadow: 0 0 2.0rem .0rem rgba(0,0,0,0.2);
+}
+
+
+
+
+/* css code for the second section */
+
+.container500 {
+  position: relative;
+  margin: 0 auto;
+  /* background-color: rgb(145, 136, 136); */
+  background-image: linear-gradient(to right, purple,tomato,purple); 
+  height:6.0rem;
+  width:100%;
+  margin-top: 8.1rem;
+
+}
+
+.container500 img {vertical-align: middle;}
+
+.container500 .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+text-align:justify;
+
+
+
+}
+.cardalternative img{
+  opacity:30;
+  border-radius:5%;
+  background-position:cover;
+  background-attachment: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow:hidden;
+height: 100%;
+  
+}
+.cardaltenative img:nth-child(odd){
+position:absolute;
+right:70px;
+}
+/* carousal image changing css stling  */
+
+.carousal-img{
+  opacity:50;
+  border:1px solid white;
+  height:100%;
+/* zoom:150%; */
+/* transform: scale(1.5); */
+transition: transform .2s;
+transform: scale(1.5);
+
+}
+
+
+
+
+
+/*CSS FOR THE CAMPUS */
+.mycampuspagemainheading{
+  color: red;
+}
+.campus{
+    width:80%;
+    margin:auto;
+    text-align: center;
+padding-top: 5.0rem;
+}
+.rowcampus{
+    display: flex;
+    justify-content: space-between;
+}
+
+.campuscolumn{
+    flex-basis:32%;
+    border-radius:1.0rem;
+    margin-bottom:30. rem;
+    position:relative;
+    overflow:hidden;
+}
+.campuscolumn img{
+    width:30vw;
+    height:60vh;
+}
+.campuscolumn:hover{
+    width:3vw;
+    height:60vh;
+    text-shadow: #fff;
+    width:30.1vw;
+    transition:.5s;
+    border:.2rem solid black;
+
+}
+
+
+.layer:hover{
+    background-color: rgba(226,0,0,0.7);
+}
+
+
+
+
+/*  for changing text i am going to write the css by animation for a span tag containing the class as changetext*/
+
+
+._changecontent::after {
+    content: '';
+    animation: changetext 10s infinite linear;
+    position: relative;
+  color:white;
+  font-size:3.0rem;
+
+  }
+  span{
+    color:rgb(34, 255, 0);
+    font-size:4.0rem;
+
+  }
+
+
+
+  @keyframes changetext {
+    0% {
+      content: "ATRAULIA";
+      color:#fff3f3;
+    }
+    20% {
+      content: "AZAMGARH";
+      color:#fff3f3;
+    }
+    40% {
+      content: "PPPMODE";
+      color:#fff3f3;
+    }
+    60% {
+      content: "AICCEDS";
+      color:#fff3f3;
+    }
+    80% {
+      content:"IS HERE";
+      color:#fff3f3;
+    }
+
+    100% {
+      content: "FOR OUR BETTER FUTURE";
+      color:#fff3f3;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+  /* css for the front button which is visit us to know more */
+  #panel1, #flip1 {
+    padding: .5rem;
+    text-align: center;
+    background-color: green ;
+    border: solid .1rem #dc1c1c;
+  }
+  
+  #panel1 {
+    padding: 5.0rem;
+    display: none;
+    height:30.0rem;
+    width:90.0rem;
+  
+  }
+  
+  #panel2, #flip2 {
+    padding: .5rem;
+    text-align: center;
+    background-color: #4c6508;
+    border: solid 1px #db1010;
+  
+  }
+  
+  #panel2 {
+    padding: 5.0rem;
+    display: none;
+    height:30.0rem;
+    width:90.0rem;
+  }
+
+
+/* carousal image  */
+
+
+
+/* this is the code for the fullpage tabs  */
+
+
+
+/* Style tab links */
+#tab{
+  height:100%;
+  z-index:10;
+  /* background-color: rgba(235, 17, 17, 0.39); */
+  background-image: url("img/pixel/study_background.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  opacity:150;
+}
+.tablink {
+  background: rgba(0, 0, 0, 0.0000001);
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+border:1px solid white;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 100px 20px;
+
+}
+.tabcontent h3{
+  color:white;
+  text-decoration-color:#bb0000;
+}
+.tabcontent .contentfromupersuperitendent{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size:12px;  
+}
+.tabcontent img{
+  position:relative;
+  /* left:10%; */
+  left:10%;
+}
+
+
+#Home {
+  background-color: rgba(0, 0, 0, 0.896);
+border:1px solid white;
+width:99.99%;
+margin:auto;
+}
+#News {
+  background-color: rgba(0, 0, 0, 0.896);
+border:1px solid white;
+width:99.99%;
+margin:auto;
+}
+#Contact {
+  background-color: rgba(0, 0, 0, 0.896);
+border:1px solid white;
+width:99.99%;
+margin:auto;
+}
+#About {
+  background-color: rgba(0, 0, 0, 0.896);
+border:1px solid white;
+width:99.99%;
+margin:auto;
+}
+
+
+
+
+
+
+
+
+  /* this is the css for the carrier page of our main website start */
+  
+  
+  .carrierimage{
+    display:inline-block;
+  }
+
+
+  /* this is the css for the carrier page of our main website end */
+
+
+
+  /* for responsiveness by technical thapa */
+  @media (max-width:998px) {
+    html{
+      font-size: 55%;
+       }
+
+  @media (max-width:998px) {
+    html{
+      font-size: 55%;
+    }
+    .typingeffect{
+      color:white;
+    }
+    img{
+      width:150px;
+      height:150px;
+    }    
+    mark{
+      position: absolute;
+      left:120px;
+    }
+    #logo{
+      height:120px;
+      width:120px;
+    }
+    body{
+      font-size:18px;
+      color:white;
+
+    }
+    .carousal-img img{
+      margin-top:30px;
+      
+      }
+      .aimcontainer{
+        color:white;
+      } 
+        }
+@media (max-width:768px) {
+    html{
+      font-size:50%;
+ 
+    }
+    .typingeffect{
+      color:white;
+    }
+    .somecontentforthefrontpage{
+      color:white;
+    }
+    .contentfromupersuperitendent{
+      color:white;
+    }
+    .tablinkimage{
+      margin-left:320px;
+    }
+img{
+  width:100px;
+  height:100px;
+}    
+mark{
+  position: absolute;
+  left:180px;
+}
+#logo{
+  height:120px;
+  width:120px;
+}
+body{
+  font-size:18px;
+  color:white;
+}
+.carousal-img img{
+margin-top:20px;
+
+}
+.aimcontainer{
+  color:white;
+} 
+}
+@media (max-width:568px) {
+  html{
+    font-size:45%;
+
+  }
+  .typingeffect{
+    color:white;
+  }
+.somecontentforthefrontpage{
+  color:white;
+}
+.contentfromupersuperitendent{
+  color:white;
+}
+.tablinkimage{
+  margin-left:159px;
+}
+img{
+  width:100px;
+  height:100px;
+}    
+#logo{
+  height:80px;
+  width:80px;
+}
+body{
+  font-size:18px;
+  color:white;
+}
+.aimcontainer{
+  color:white;
+} 
+}
+
+
+
+/* This is the code for the faculty page  start*/
+.campus{
+  /* background-image: linear-gradient(to right, purple,tomato,purple);  */
+
+}
+h1{
+  color:rgb(230, 68, 19);
+}
+.facultydescribe{
+  color:green;
+  border:1px dashed rgb(206, 29, 29);
+}
+p{
+  color:rgb(135, 131, 37);
+}
+hr{
+  color:greenyellow;
+}
+.normalheadinginthedropedslide{
+  font-size:2.5rem;
+  color:rgb(21, 20, 20);
+  background-color: yellow;
+  border:1px dashed red;
+
+}
+
+/* This is the code for the faculty page end*/
+
+
+
+
+
+
+/* this is the code for the about college page */
+
+  
+body{
+  background-color:rgba(0, 0, 0, 0.987);
+}
+.headingofabotcollege{
+color:rgb(12, 12, 12);
+}
+  .container1{
+    height:92vh;
+    width:100vw;
+    border:.3rem solid red;
+display:grid;
+grid-template-columns:auto auto;
+background-color: #fff3f3;;
+  }
+  .box101{
+display:inline;
+
+height:35.0rem;
+width:40.0rem;
+  }
+  .box102{
+display:inline;
+
+height:35.0rem;
+width:55.0rem;
+position:relative;
+right:100;
+
+  }
+  .img101{
+    width:40.0rem;
+    height:35.0rem;
+    border:.1rem solid black;
+
+  }
+  .img102{
+    border:.1rem solid yellow;
+  }
+
+  a{
+    color:blue;
+    font-size: 2.5rem;
+text-decoration: none;
+
+  }
+footer{
+color:white;
+}
+
+/* about page styling ends */
+
+
+
+/* for only logo responsiveness styling start*/
+
+@media (max-width:1100px) {
+  #logo{
+  
+   height:150px;
+   width:150px;
+ }  
+ .aimcontainer{
+  color:white;
+} 
+ }
+@media (max-width:998px) {
+  #logo{
+    height:88px;
+   width:88px;
+  
+  }
+  .aimcontainer{
+    color:white;
+  } 
+  
+  }
+  
+  @media (max-width:768px) {
+   #logo{
+    height:86px;
+    width:86px;
+    
+  }
+  .aimcontainer{
+    color:white;
+  } 
+  
+ 
+  }
+  @media (max-width:568px) {
+    #logo{
+    height:70px;
+    width:70px;
+    
+  }
+  .aimcontainer{
+    color:white;
+  } 
+  }
+/* for only logo responsiveness styling end*/
+
+
+
+
+/* form styling starts */
+form{
+  border:1px solid red;
+  background-color: #007bb5;
+}
+.modal-footer form input{
+  border-radius:20px;
+}
+/* form styling ends */
+
+
+
+/* body scrolling styling starts */
+#bodyscroll button{
+  margin-left: 200px;
+  background-color: red;
+}
+/* body scrolling styling ends */
+
+
+/* code for the footer */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  width:1rem;
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}

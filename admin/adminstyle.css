@@ -1,0 +1,17 @@
+
+
+*{
+
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+}
+
+li a{
+    margin-left:-20px;
+  }
+  li a i{
+    margin-left:10px;
+  }
+  li a span{
+    margin-left:20px;
+  }
